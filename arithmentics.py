@@ -1,3 +1,4 @@
+
 '''
 print(10 // 3)  # displays as a whole number
 
@@ -13,6 +14,10 @@ x = x + 3  # example of incrementation of 10 by 3
 # x += 3  # example of augmented assignment operator whereby where augmented or enhanced the assignment is operator
 # does the very same thing as x = x + 3
 # MORE EXAMPLES
-x = 10
+'''
 
+x = 10
+x -= 3
 print(x)
+There you go! Result should be 7! Try eking some of your examples.
+'''
