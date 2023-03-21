@@ -17,3 +17,6 @@ spit over \
 several \
 lines."""
 print(anotherSString)
+#an example of used /n /d and similar letters by the Python / system - so giving you example how to compile it properly in both examples
+print("C:/Users/milanovicful/notes.txt")
+print(r"C:\Users\milanmilanovicful\notes.txt")
