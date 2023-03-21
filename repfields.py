@@ -14,3 +14,17 @@ print("Jan: {2}, Feb: {0}, March: {2}, April: {1}, May: {2}, Jun: {1}, Jul: {2},
       .format(28, 30, 31))
 
 # Example of how you can use 3 different integer values and add them to your list of values, and then insert in strings
+
+print()
+
+print("""Jan: {2},
+ Feb: {0},
+ Mar: {2},
+ Apr: {1},
+ May: {2},
+ Jun: {1},
+ Jul: {2},
+ Sep: {1},
+ Oct: {2},
+ Nov: {1},
+ Dec: {2}""".format(28, 30, 31))
