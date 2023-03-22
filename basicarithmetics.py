@@ -13,6 +13,15 @@ print()
 for i in range(1, 4):
     print(i)
 
+# same does the following   
+
+i = 1
+print(i)
+i = 2
+print(i)
+i = 3
+print(i)
+
 # You cannot do following
 
 """ for i in rage(1, a/b):
