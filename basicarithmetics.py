@@ -15,6 +15,13 @@ for i in range(1, 4):
 
 # You cannot do following
 
-""" for i in rage(1, a/b)
+""" for i in rage(1, a/b):
     print(i) """
+
+# what you can do is:
+
+for i in range(1, a // b):
+    print(i)
+
+# can't use float
 
