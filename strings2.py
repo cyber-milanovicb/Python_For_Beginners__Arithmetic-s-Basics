@@ -58,3 +58,15 @@ phrase = "Norwegian Blue"
 #                   1
 #         012345678901234
 print(phrase[10:14]) # USE COLUMN don't forget! Now we have word "BLUE" as you see in my commends about indexes...
+
+print(phrase[10:]) # include always start [X:..] and stop values [..:Y] - in tis case we took all 10 characters frm 14
+# so as we can see it's pretty much left with 4 last letters - as our assignment says - to write down the word BLUE
+
+
+print(phrase[6:])
+print(phrase[:6])
+
+print(phrase[:6] + phrase[6:])   # check this out, we just got our orriginal pharse we 1)sleted first 6 chars
+# and then after that add up with from 6 (incluing it) to the rest indexig numbers.
+
+print(phrase[:]) # no start point no stop so all printed out
