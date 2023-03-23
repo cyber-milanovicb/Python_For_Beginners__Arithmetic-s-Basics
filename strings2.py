@@ -70,3 +70,17 @@ print(phrase[:6] + phrase[6:])   # check this out, we just got our orriginal pha
 # and then after that add up with from 6 (incluing it) to the rest indexig numbers.
 
 print(phrase[:]) # no start point no stop so all printed out
+
+
+
+alphabeth = "abcdefghijklmnopqrstuwxyz"  #make a word
+#           01234567891234567891234567
+
+print(alphabeth[1:2])
+print(alphabeth[14:15])
+print(alphabeth[17:18])
+print(alphabeth[8:9])
+print(alphabeth[18:19])
+print(alphabeth[1:2] + alphabeth[14:15] + alphabeth[17:18] + alphabeth[8:9] + alphabeth[18:19])
+
+#CHALLANGE WITH ALBHABET AND MY NAME DONE
