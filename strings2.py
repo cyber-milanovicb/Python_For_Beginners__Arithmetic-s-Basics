@@ -53,3 +53,8 @@ print(phrase[3:5]) # = weg
 # now with these - you will get same result with both examples:
 print(phrase[0:9])
 print(phrase[:9])   # assumption at Python that 1st index nmber is 0.
+
+phrase = "Norwegian Blue"
+#                   1
+#         012345678901234
+print(phrase[10:14]) # USE COLUMN don't forget! Now we have word "BLUE" as you see in my commends about indexes...
